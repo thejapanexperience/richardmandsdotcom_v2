@@ -12,3 +12,162 @@ introBody: |+
   Through Cinderhouse Creative, I was a co-founder / developer of Eduku, a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
 
   I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).
+
+portfolio:
+  entable:
+    title: Entable
+    body: This application was built over a single weekend at the Lady Problems Hackathon in San Francisco and won the Cisco developers prize. It incorporates React, Express, Flux, Socket.io, MongoDB and Cisco's Tropo API to enable the creation and management of "banks" by customers around the world using a simple sms-based interface. Supporters of those banks can then go online to view updates, interact with bank members and make donations.
+    links:
+      site: http://www.entable.org/
+      github: http://github.com/thejapanexperience/entable2.0
+      youtube: http://youtu.be/y7ehO-zgFmM
+      twitter: http://twitter.com/rekhapai/status/790329165341794304
+
+  theFastLife:
+    title: The Fast Life
+    body: The Fast Life is an application that allows users to schedule, edit and view fasts, as well as keep a diary. Firebase is used to handle Google authentication. Styling was done using material-ui. The app was built with React and also incorporates Node, Express, Redux and MongoDB.
+    links:
+      site: http://nameless-cove-36810.herokuapp.com/
+      github: http://github.com/thejapanexperience/the-fast-life
+
+  richardmandsdotcom:
+    title: richardmands.com
+    body: A beautiful, fully-responsive single-page application built using react without any css-libraries.
+    links:
+      site: http://www.richardmands.com/
+      github: https://github.com/thejapanexperience/richardmandsdotcom
+
+  eduku:
+    title: Eduku
+    body: I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We are creating a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku.
+    links:
+      site: http://www.facebook.com/projecteduku/
+
+resume:
+  title: résumé
+  show: Show résumé?
+  hide: Hide résumé?
+  pdf:
+    title: Download pdf
+    link: https://drive.google.com/open?id=0B6GYiEdGHBSDc0hMakI1a3FqRHc
+  word:
+    title: Download word
+    link: https://drive.google.com/file/d/0B6GYiEdGHBSDM25wckxSNzBYM1k/view?usp=sharing
+  document:
+    intro: |+
+      Full-stack developer.
+      A quick study who has learned how to learn, I have a strong leadership background, adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+    quickPoints: |+
+      - Lead Software Engineer at Bede Gaming- Software Engineer at Sage
+      - 3 years coding, designing & marketing at Cinderhouse Creative
+      - Cofounder / lead developer of Eduku
+      - Hackathon prize winner
+      - Pro photographer / videographer
+      - UK / Canada passport holder
+    contact: |+
+      richardmands.com
+      +44 07507 881794
+      richard@eduku.org
+      github.com/thejapanexperience
+      linkedin.com/in/richardmands
+    profile: |+
+      Currently Lead Software Engineer at Bede Gaming.
+      Software Engineer at Sage.
+      Co-Founder / Visual Director / Developer at Cinderhouse Creative.
+      Lead developer / Co-owner of Eduku, an online education platform made using React, Redux, Express, Auth0, MongoDB.
+      Proficient with a JS stack based around React, Redux, Node, Express and Webpack. I've also worked with a variety of other React adjacent technologies such as MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others.
+      Won Cisco’s 1st place prize at AngelHack’s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
+      Co-founder of 3 social enterprise case-studies that funded business-development competitions on HeroX for Kito International graduates in Kenya.
+      Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK
+      Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software).
+      Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia.
+    partnerize:
+      date: Jan '19 - Present
+      content: |+
+
+    bedeGaming:
+      date: Jul '18 - Dec '18
+      content: |+
+        Lead Software Engineer | Newcastle, UK
+        JavaScript, React, Backbone, Marionette, Jira, Scrum.
+        - responsible for leading a team of developers, working with stake-holders, writing tickets / estimation, managing scrum ceremonies, 1-2-1s, etc.
+        - transitioning front-end product over to a React stack while introducing new features.
+
+    sage:
+      date: Jul '17 - Jun '18
+      content: |+
+        Software Engineer | Newcastle, UK
+        Ruby, Rails, Sinatra, MySQL, RSpec, JavaScript, React, Jasmine, Git, Docker, AWS, Postmark, Jira, Scrum.
+        - worked with a very large codebase, adding features and fixing bugs.
+        - successfully developed a new email service using Postmark, Sinatra, AWS and Docker that sends millions of emails per year.
+        - mentored new graduate developers.
+        - taken a lead role in scrum meetings, delivered presentations, led communications with other departments, etc
+        - developed my own large-scale project on a volunteer basis with the Sage Foundation.
+
+    cinderhouseCreative:
+      date: Oct '14 - Jun '17
+      content: |+
+        Co-Founder / Visual Director / Developer | Nanjing, China
+        Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others.
+        Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies, Eduku, Stock Disrupt and Domogo, that have featured in several publications including the BBC.
+
+    eduku:
+      date: Aug '15 - Jun '17
+      content: |+
+        Co-Founder / Lead Developer | Nanjing, China
+        Eduku is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
+        The platform will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.
+
+    bsn:
+      date: Apr '12 - Jul '16
+      content: |+
+        Science & ICT Teacher / Assessment Coordinator | Nanjing, China
+        Taught science and ICT to students aged 10-18.
+        Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
+        Won the technology development prize from the British Schools Foundation.
+        Developed training curricula and led inset for staff with the goal of improving IT integration.
+        Created and led highly successful after-school programs related to charity work and fundraising.
+
+    teaching:
+      date: Apr '04 - Mar '12
+      content: |+
+        London Academy | Secondary Science Teacher | London, UK
+        Various | English Teacher | Tokyo, Japan
+
+    teachingQualification:
+      date: 2009-2010
+      content: |+
+        Institute of Education(UCL) | Secondary Science PGCE | London, UK
+
+    uni:
+      date: 1999-2003
+      content: |+
+        University of York | Biochemistry BSc | York, UK
+
+    personalInfo: |+
+      I'm married and have two young children.
+      I hold UK and Canadian passports.
+      I can speak, read and write Japanese to an intermediate level.
+
+  educationAndTraining:
+    title: Education & Training
+    content: |+
+      I am a UK qualified secondary science teacher with a decade of classroom teaching experience. In that time, as well as day-to-day teaching, I have developed original curricula, managed student assessment data, introduced Google Drive into student assessment and feedback at my school, won a technology development prize from my schools group, led teacher training sessions (mostly based around usage of technology) and been a leader in developing social enterprise / charitable giving.
+
+      These are all experiences that have helped me develop the ability to understand and communicate new technologies in a clear and effective way.
+
+  photography:
+    title: Photography
+    content: |+
+      I'm a passionate and experienced photographer, having shot a wide variety of jobs ranging in style from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.
+
+      I own a range of professional cameras and lenses and would love to use my photography skills to support any organisation I work for.
+
+  videographyAndEditing:
+    title: Videography & Editing
+    content: |+
+      I have experience shooting a variety of projects that range from in-studio promos and product shots to on-location events and even 360 video (using a multi-camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K.
+
+      I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also have experience with recording high quality audio using shotgun, lavalier and traditional dynamic microphones recorded onto a variety of Zoom external recorders (H1, H5).
+
+      As with my photography skills, it would be great to utilise my videography experience (if possible) alongside a role as a developer.

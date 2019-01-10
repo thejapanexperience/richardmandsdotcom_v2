@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
+import React from 'react';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
 
-import IndexPageHO from './indexHO'
+import IndexPageHO from './indexHO';
 
-import Layout from '../components/layout'
-import Intro from '../components/intro'
-import TechIcons from '../components/techIcons'
-import * as Images from '../images'
+import Layout from '../components/layout';
+import Intro from '../components/intro';
+import TechIcons from '../components/techIcons';
+import * as Images from '../images';
 
 const {
   ImageAstronaut,
@@ -42,16 +42,19 @@ const {
   ImageSocketio,
   ImageTropo,
   ImageWebpack,
-} = Images
+} = Images;
 
 const IndexPage = ({ text }) => {
+  console.log(text.portfolio);
+  console.log(text.resume);
+
   const introBody = text.introBody.split('\n').map((item, i) => {
     return (
       <div key={i}>
         <p>{item}</p>
       </div>
-    )
-  })
+    );
+  });
 
   return (
     <Layout>
@@ -100,14 +103,14 @@ const IndexPage = ({ text }) => {
       </div>
       <Link to="/page-2/">Go to page 2</Link>
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   text: PropTypes.object,
-}
+};
 
 IndexPage.defaultProps = {
   text: {},
-}
-export default IndexPageHO(IndexPage)
+};
+export default IndexPageHO(IndexPage);
